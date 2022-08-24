@@ -1,0 +1,22 @@
+:root {
+    /*Standard*/
+    --background-color: rgb(21, 0, 24);
+    --links-color: #faebd7;
+
+    /*Colors*/
+    --purple: #711C9A;
+    --dark-purple: #3b0146;
+    --green: #065307;
+    --white: #fff;
+    --black: #000;
+
+}
+
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    position: absolute;
+    left: 15%;
+}

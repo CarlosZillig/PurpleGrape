@@ -1,0 +1,29 @@
+.questions-title {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: var(--links-color);
+    padding: 1em 0;
+    text-transform: uppercase;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.questions-link {
+    display: inline-block;
+    width: 80%;
+    padding: 1em 0;
+
+    border: 1px solid var(--purple);
+    border-radius: 15px;
+
+    font-size: 1.1em;
+    color: var(--links-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
