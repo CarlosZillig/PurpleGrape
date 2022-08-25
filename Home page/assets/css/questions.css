@@ -1,0 +1,29 @@
+.questions {
+    padding: 1em 0;
+}
+
+.questions-container {
+    padding: 0 1.3em;
+}
+
+.questions-item {
+    padding: 1em 0;
+    border-top: 1px solid var(--lightgray);
+}
+
+.questions-item:first-child {border-top: 0 solid var(--lightgray);}
+
+.questions-content {
+    display: flex;
+    justify-content: space-between;
+    color: var(--lightgray);
+}
+
+.questions-title {
+    font-size: 1.1em;
+}
+
+.questions-text {
+    display: none;
+}
+

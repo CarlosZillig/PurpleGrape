@@ -1,0 +1,23 @@
+.header-nav {
+    background-color: var(--white);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    padding: 2em 0;
+}
+
+.header-logo {
+    font-size: 1.3em;
+    color: var(--black);
+    padding-left: 1em;
+}
+
+.header-menu--btn {
+    padding: 1em;
+    color: var(--black);
+    font-size: 1.5em;
+}

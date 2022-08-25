@@ -7,9 +7,10 @@
     --purple: #711C9A;
     --dark-purple: #3b0146;
     --green: #065307;
+    --greenhsl: #065307b4;
     --white: #fff;
     --black: #000;
-
+    --lightgray: rgb(138, 138, 138);
 }
 
 body { 
@@ -20,3 +21,4 @@ body {
     position: absolute;
     left: 15%;
 }
+

@@ -1,0 +1,20 @@
+.presentation {
+    padding: 2em 0;
+    width: 100vw;
+}
+
+.presentation-container {
+    padding: 0 1em;
+}
+
+.presentation-container--title {
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.presentation-container--text {
+    font-size: 1.1em;
+    font-weight: 300;
+}
