@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 .header-container {
@@ -13,7 +14,7 @@
 .header-logo {
     font-size: 1.3em;
     color: var(--black);
-    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .header-menu--btn {

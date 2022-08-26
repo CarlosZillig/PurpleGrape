@@ -1,3 +1,15 @@
 .active-menu {
     left: 0;
 }
+
+.display-none {
+    display: none;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+i {
+    transition: .3s;
+}

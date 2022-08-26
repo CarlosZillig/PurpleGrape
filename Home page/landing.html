@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/presentation.css">
     <link rel="stylesheet" href="assets/css/questions.css">
     <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
     <!--Icons-->
     <script src="https://kit.fontawesome.com/7df7c09821.js" crossorigin="anonymous"></script>
@@ -52,6 +54,7 @@
             </ul>
         </nav>
     </section>
+
     <header class="header-nav">
          <div class="header-container">
             <div class="header-container--logo">
@@ -64,6 +67,9 @@
            </div>
          </div>
     </header>
+
+    <section class="freight"><span class="span-freight">Frete gratis</span> para todo o Brasil</section>
+
     <section class="banner">
         <div class="banner-container">
             <div class="banner-container--title">
@@ -73,8 +79,39 @@
                 <span class="purple-text">pouco preço</span>
             </div>
         </div>
-        <div class="banner-container">
-            <img src="assets/images/zyro-image.png" alt="#" class="banner-container--image">
+    </section>
+
+    <section class="questions">
+        <div class="questions-container">
+            <ul class="questions-list">
+                <li class="questions-item">
+                    <div class="questions-content">
+                        <h5 class="questions-title" id="1">Quanto tempo leva para chegar?</h5>
+                        <span><i class="fa-solid fa-angle-down" id="i1"></i></span>
+                    </div> 
+                    <div class="questions-text display-none" id="t1">
+                        <p>AAAAAAA</p>
+                    </div>
+                </li>
+                <li class="questions-item">
+                    <div class="questions-content">
+                        <h5 class="questions-title" id="2">Os produtos são originais?</h5>
+                        <span><i class="fa-solid fa-angle-down" id="i2"></i></span>
+                    </div> 
+                    <div class="questions-text display-none" id="t2">
+                        <p>BBB</p>
+                    </div>
+                </li>
+                <li class="questions-item">
+                    <div class="questions-content">
+                        <h5 class="questions-title" id="3">Como faço para comprar?</h5>
+                        <span><i class="fa-solid fa-angle-down" id="i3"></i></span>
+                    </div> 
+                    <div class="questions-text display-none" id="t3">
+                        <p>CCC</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -95,50 +132,36 @@
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="assets/images/zyro-image.png" alt="#" class="banner-container--image"></div>
-                <div class="swiper-slide"><img src="assets/images/zyro-image.png" alt="#" class="banner-container--image"></div>
-                <div class="swiper-slide"><img src="assets/images/zyro-image.png" alt="#" class="banner-container--image"></div>
+                    <!-- Slides -->
+                    <div class="swiper-slide" id="banner1"><img src="assets/images/nike-tn-cinza-removebg-preview.png" alt="#" class="banner-container--image"></div>
+                    <div class="swiper-slide" id="banner2"><img src="assets/images/zyro-image.png" alt="#" class="banner-container--image"></div>
+                    <div class="swiper-slide" id="banner3"><img src="assets/images/yeezy_slide-removebg-preview.png" alt="#" class="banner-container--image"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="questions">
-        <div class="questions-container">
-            <ul class="questions-list">
-                <li class="questions-item">
-                    <div class="questions-content">
-                        <h5 class="questions-title">Quanto tempo leva para chegar?</h5>
-                        <span><i class="fa-solid fa-angle-down"></i></span>
-                    </div> 
-                    <div class="questions-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illum sunt quia, aspernatur, et ab ex aliquam est voluptatibus maiores quod ea non! Cupiditate commodi sint omnis itaque voluptas dignissimos?</p>
-                    </div>
-                </li>
-                <li class="questions-item">
-                    <div class="questions-content">
-                        <h5 class="questions-title">Os produtos são originais?</h5>
-                        <span><i class="fa-solid fa-angle-down"></i></span>
-                    </div> 
-                    <div class="questions-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illum sunt quia, aspernatur, et ab ex aliquam est voluptatibus maiores quod ea non! Cupiditate commodi sint omnis itaque voluptas dignissimos?</p>
-                    </div>
-                </li>
-                <li class="questions-item">
-                    <div class="questions-content">
-                        <h5 class="questions-title">Como faço para comprar?</h5>
-                        <span><i class="fa-solid fa-angle-down"></i></span>
-                    </div> 
-                    <div class="questions-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illum sunt quia, aspernatur, et ab ex aliquam est voluptatibus maiores quod ea non! Cupiditate commodi sint omnis itaque voluptas dignissimos?</p>
-                    </div>
-                </li>
+    <section class="contact">
+        <div class="contact-container">
+            <h3 class="contact-title">Fale com a gente!</h3>
+            <ul class="contact-list">
+                <li class="contact-item"><a href="#" class="contact-link"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                <li class="contact-item"><a href="#" class="contact-link"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li class="contact-item"><a href="#" class="contact-link"><i class="fa-brands fa-tiktok"></i></a></li>
             </ul>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/menu-mobile.js"></script>
+    <script src="assets/js/questions.js"></script>
 </body>
 </html>
