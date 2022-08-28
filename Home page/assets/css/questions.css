@@ -10,7 +10,6 @@
     padding: 1em 0;
     border-top: 1px solid var(--lightgray);
 }
-
 .questions-item:first-child {border-top: 0 solid var(--lightgray);}
 
 .questions-content {
@@ -23,10 +22,16 @@
     font-size: 1.1em;
 }
 
+.questions-text--container {
+    padding: 0.5em;
+}
+
 .questions-text {
-    font-size: 1.1em;
-    font-weight: 400;
-    padding: 0.5em 0;
+    color: rgb(80, 80, 80);
+}
+
+.questions-text--mark {
+    color: var(--purple);
 }
 
 

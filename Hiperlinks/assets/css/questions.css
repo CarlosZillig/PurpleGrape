@@ -2,7 +2,7 @@
     font-size: 1.1em;
     font-weight: 300;
     color: var(--links-color);
-    padding: 1em 0;
+    padding: 1.3em 0;
     text-transform: uppercase;
 }
 
@@ -25,5 +25,9 @@
     color: var(--links-color);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.questions-link:hover {
+    background-color: var(--purple);
 }
 
