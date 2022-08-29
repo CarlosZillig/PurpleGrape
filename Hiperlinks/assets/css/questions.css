@@ -31,3 +31,13 @@
     background-color: var(--purple);
 }
 
+.questions-span {
+    color: white;
+    padding: 0.3em;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.questions-span i {
+    padding: 0 0.5em;
+}
