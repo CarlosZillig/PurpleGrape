@@ -27,11 +27,21 @@
 }
 
 .questions-text {
-    color: rgb(80, 80, 80);
+    color: rgb(100, 100, 100);
 }
 
 .questions-text--mark {
     color: var(--purple);
+    font-weight: 400;
+}
+
+.questions-link {
+    padding: 0.5em 0;
+    font-size: 0.9em;
+}
+
+.questions-link a {
+    font-size: 1em;
 }
 
 

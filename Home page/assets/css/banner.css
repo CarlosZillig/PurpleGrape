@@ -1,10 +1,6 @@
 .banner {
     padding: 2em;
-    background-color: var(--purple);
-    position: relative;
-    background-image: url(../images/1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, var(--purple), rgb(105, 3, 105));
 }
 
 .banner-container {
@@ -19,56 +15,6 @@
 
 .banner-container--image {
     width: 100%;
-}
-
-.banner::after {
-    content: '';
-    position: absolute;
-    top: 97%;
-    left: 0;
-    width: 40%;
-    height: 3%;
-    background-color: var(--dark-purple);
-    animation: movingBarsHorizontal 3s infinite;
-}
-
-.banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1.5%;
-    height: 40%;
-    background-color: var(--dark-purple);
-    animation: movingBarsVertical 3s infinite;
-}
-
-@keyframes movingBarsHorizontal {
-    0% {
-        left: 0;
-    }
-
-    50% {
-        left: 60%;
-    }
-
-    100% {
-        left: 0;
-    }
-}
-
-@keyframes movingBarsVertical {
-    0% {
-        top: 0;
-    }
-
-    50% {
-        top: 60%;
-    }
-
-    100% {
-        top: 0;
-    }
 }
 
 .freight {

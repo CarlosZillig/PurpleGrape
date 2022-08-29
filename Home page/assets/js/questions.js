@@ -25,6 +25,12 @@ questionsBtn.forEach(item => {
             toggleClass(box, "display-none")
             toggleClass(icon, "rotate")
         }
+        if (target.id == 4) {
+            let box = textBox.id = t4;
+            let icon = document.querySelector("#i4");
+            toggleClass(box, "display-none")
+            toggleClass(icon, "rotate")
+        }
     })
 })
 
